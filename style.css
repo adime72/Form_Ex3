@@ -1,0 +1,21 @@
+body{
+    direction: rtl;
+    text-align: right;
+}
+input{
+    
+    background-color: lightgray;
+
+}
+input[type=text] {
+    width: 16%;
+    padding: 2px 5px;
+    margin: 2px 2px ;
+    box-sizing: border-box;
+}
+select{
+    width: 100px;
+}
+legend{
+    padding:15px;  
+}
