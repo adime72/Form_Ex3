@@ -13,21 +13,22 @@
                 <legend>אנא מלא את הטופס</legend>
 
                 <label for="fullname"> שם מלא<label/>
-                    <input type="text" name"fullname"  maxlength="30" placeholder="נא ציין את שימך המלא" reuired/>
+                    <input type="text" name"fullname"  maxlength="30" placeholder="נא ציין את שימך המלא" required/>
                     <br>    <label for="email"> כתובת דוא'ל<label/>
-            <input type="email" name"email"  maxlength= "30" placeholder="כתובת מייל עד 30 אותיות " reuired/>
+            <input type="email" name"email"  maxlength= "30" placeholder="כתובת מייל עד 30 אותיות " required/>
             <br>
             <label for="password">סיסמה<label/>
-            <input type="password" name"password" pattern="[A-Za-z1-9]{10}"  maxlength="10"  placeholder="סיסמה אלפא נומרית 10 תוים" reuired/> 
+            <input type="password" name"password" pattern="[A-Za-z1-9]{10}"  maxlength="10"  placeholder="סיסמה אלפא נומרית 10 תוים" required/> 
       <br>
       <label for="check-password"> סיסמה בשנית<label/>
-      <input type="password" name"check-password"  maxlength="10" placeholder= "כתוב את הסיסמה שנית" reuired/>
+      <input type="password" name"check-password"  maxlength="10" placeholder= "כתוב את הסיסמה שנית" required/>
       <br>
     </fieldset>
       <!-- בחלק זה נממש את שלב ב של התוכנית 
-        תוספת של שדה מספר, רדיו ובחירה מרובה -->
+        תוספת של שדה מספר, רדיו ובחירה מרובה וכמובן קוד האתר השושואיסטי -->
 <h3>כל בכבוד שלב ב</h3>
 <be>
+        <input type="hidden" name="hostsite" value="W24LCH"/>
 <fieldset>
  <legend>כמה שאלות אחרונות וסיימנו </legend>
 <label for="age">גיל<label/>
